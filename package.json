@@ -2,6 +2,8 @@
   "name": "react-basic",
   "version": "1.0.0",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "type":"module",
     "test": "jest"
   },

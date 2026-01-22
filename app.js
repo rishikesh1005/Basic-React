@@ -1,28 +1,33 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading1 = React.createElement("h1",
-    {
-        id:"title1",
-    } ,
-    "Heading1"
-);
+// jsx code to creat heading 
 
-const heading2 = React.createElement("h2", 
-    {
-        id:"title2",
-    }, 
-    "Heading2"
-);
+const heading = (
+    <h1 id="title" key="h11">
+        heading from Jsx
+    </h1>
+)
 
-const container = React.createElement("div" ,
-    {
-        id:"container",
-    } ,
-    [heading1,heading2]
-);
+// react component
+// functional component -> basic function returning some jsx or react element
+
+
+const HeaderComponent = () => {
+    return (
+       <div>
+         {heading} {/**using element in component.
+          * These bracket allow u to write any piece of js code in jsx
+          * <Title/> or {Title()} -> using component inside component
+          */}
+         <h1>React functional component</h1>
+         <h2>this is h2 heading</h2>
+       </div>
+    )  
+};
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<HeaderComponent/>);
 
