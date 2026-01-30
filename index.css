@@ -34,3 +34,7 @@
     margin: 8px;
     flex-wrap: wrap;
 }
+
+button{
+    height:100%;
+}
