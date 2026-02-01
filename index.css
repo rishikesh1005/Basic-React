@@ -44,6 +44,6 @@ button{
     width: 180px;
     height: 250px;
     border: 1px solid black;
-    background-color: azure;
+    background-color: rgb(235, 234, 234);
     margin: 20px;
 }

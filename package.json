@@ -2,9 +2,8 @@
   "name": "react-basic",
   "version": "1.0.0",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
-    "type":"module",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "",
@@ -15,6 +14,8 @@
   },
   "dependencies": {
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-router": "^6.28.0",
+    "react-router-dom": "^6.28.0"
   }
 }
